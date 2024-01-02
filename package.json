@@ -2,9 +2,10 @@
   "name": "react",
   "version": "1.0.0",
   "description": "This repo for the exploration for the react",
-  "main": "index.html",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [
     "JS",
@@ -12,5 +13,13 @@
     "ReactDOM"
   ],
   "author": "Rutvik Pesivadiya",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  }
 }
