@@ -1,0 +1,16 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This repo for the exploration for the react",
+  "main": "index.html",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "JS",
+    "React",
+    "ReactDOM"
+  ],
+  "author": "Rutvik Pesivadiya",
+  "license": "ISC"
+}
